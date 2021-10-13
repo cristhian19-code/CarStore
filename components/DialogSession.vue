@@ -108,9 +108,7 @@ export default {
   margin: 10px 0px;
   width: calc(100%);
 }
-.con-form .vs-input-content .vs-input {
-  width: 100%;
-}
+
 .footer-dialog {
   display: flex;
   align-items: center;
@@ -133,5 +131,13 @@ export default {
 }
 .footer-dialog .vs-button {
   margin: 0px;
+}
+
+.con-form , .vs-input-content ,.vs-input {
+  width: 100% !important;
+}
+
+input{
+  margin-top: 10px;
 }
 </style>
